@@ -1,0 +1,15 @@
+{
+  "name": "china-direct-sourcing-coming-soon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SEO-friendly animated Vue coming-soon site for China Direct Sourcing, served by a zero-dependency Node.js server for cPanel.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
